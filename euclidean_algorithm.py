@@ -1,6 +1,6 @@
 def euclidean(a, b):
     '''
-    find x, y such that ax+by=1
+    find x, y such that ax+by=gcd
     '''
     q = a // b
     r = a % b
